@@ -28,7 +28,7 @@ function potencia(req, res, next){
   var n1 = Number(req.query.n1);
   var n2 = Number(req.query.n2);
   var resp = Math.pow(n1,n2);
-  res.send(`La multiplicacion de ${n1} y ${n2} es ${resp}`);
+  res.send(`La potencia de ${n1} a la ${n2} es ${resp}`);
 }
 
 function restar(req, res, next){
